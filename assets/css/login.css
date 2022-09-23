@@ -1,0 +1,106 @@
+.login-form-container{
+    width:50%;
+    height:auto;
+    margin:50px 25%;
+    padding:20px;
+    box-sizing: border-box;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: lightgray;
+    float:left;
+}
+
+.login-form-container .login-form{
+    width:80%;
+    height: auto;
+    margin:0 10% ;
+}
+
+.login-form-container .row{
+    width:100%;
+    height:auto;
+    margin:0;
+    float: left;
+}
+
+.login-form-container .row .col1{
+    width:150px;
+    height: auto;
+    margin:10px 0;
+    float: left;
+    font-family: 'Heebo', sans-serif;  
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login-form-container .row .col2{
+    width:60%;
+    height: auto;
+    margin:10px 0;
+    float: left;
+
+}
+
+.login-form-container .row .col2 .input-login{
+    width:100%;
+    height: auto;
+    padding:5px;
+    font-size: 18px;;
+}
+
+
+
+.login-form-container .buttons-row{
+    width:100%;
+    height:uto;
+    margin:20px 0;
+    text-align: center;
+    float: left;
+}
+
+.login-form-container .buttons-row .submit-button{
+    width:150px;
+    height:auto;
+    margin:10px 20px;
+    padding:10px;
+    background-color: #737124;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 25px;
+
+}
+
+.login-form-container .buttons-row .submit-button:hover{
+    background-color: blue;
+
+}
+
+.login-form-container .signup-link{
+    width:80%;
+    height:auto;
+    margin:0 10%;
+    float:left;
+    text-align: center;
+}
+
+@media only screen and (max-width:1050px){
+    .login-form-container{
+        width:80%;
+        margin:50px 10%;
+    }
+}
+@media only screen and (max-width:600px){
+    .login-form-container{
+        height:600px;
+    }
+    .login-form-container .login-form, .login-form-container .row .col2 {
+        width:100%;
+        margin:10px 0;
+    }
+
+    .login-form-container .row .col2 .input-login {
+        width:90%;
+    }
+}

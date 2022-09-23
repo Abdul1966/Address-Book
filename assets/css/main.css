@@ -1,0 +1,170 @@
+
+body{
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.site{
+    width:100%;
+    height:auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.submit-button{
+    width:150px;
+    height:auto;
+    margin:0 20px;
+    background-color: #737124;
+    color:white;
+    font-size: 18px;
+    padding:10px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.submit-button:hover{
+    background-color: blue;
+}
+
+.records-container{
+    width:90%;
+    height:400px;
+    margin:50px 5%;
+    overflow: scroll;
+}
+
+.records-container .add-records-table{
+    width:1900px;
+    height:auto;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+
+.records-container .add-records-table th, .records-container .add-records-table td{
+    padding:5px;
+    border:1px solid black;
+    font-size:14px;
+    
+}
+
+.records-container .add-records-table th{
+    background-color: lightgray;
+}
+
+
+.records-container .edit-records-form .submit-button{
+    width:70px;
+    height:auto;
+    margin: 10px 5px;
+    padding:5px;
+    cursor: pointer;
+    background-color: #737124;
+    color:white;
+    font-size: 14px;
+
+}
+
+.records-container .edit-records-form .submit-button:hover{
+    background-color: blue;
+
+}
+
+.align-center{
+    text-align: center;
+}
+
+.search-form-container{
+    width:90%;
+    height:auto;
+    margin:20px 5%;
+    padding:10px 0;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.search-form-container .search-form .radio-row{
+    width:auto;
+    height: auto;
+    margin:10px 0;
+}
+
+.search-form-container .search-form .search-row{
+    width:100%;
+}
+
+.search-form-container .search-form .radio-row{
+    display:inline-block;
+}
+
+.search-form-container .input-radio{
+    width:auto;
+    height: auto;
+    margin:10px 20px;
+}
+
+.search-form-container .input-text{
+    width:40%;
+    height: auto;
+    margin:10px 20px;
+    padding:10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
+.search-form-container label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;  
+
+}
+
+.confirm-form-container{
+    width:50%;
+    height:200px;
+    position:fixed;
+    padding:50px 0;
+    top:200px;
+    left:25%;
+    background-color: lightgray;
+    border:2px solid black;
+}
+
+.confirm-text{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.confirm-buttons-container{
+    text-align: center;
+    margin:30px 0;
+}
+.confirm-button{
+    width:150px;
+    padding:5px 0px;
+    margin:10px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:600px){
+    .search-form-container .input-text{
+        width:80%;
+        height: auto;
+        margin:10px 20px;
+
+    }
+
+    .search-form-container .search-form .radio-row{
+        float:none;
+    }
+   
+}

@@ -1,0 +1,223 @@
+
+.add-user-form-container{
+    width:50%;
+    height:auto;
+    margin:50px 25%;
+    padding:20px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    border:1px solid black;
+    border-radius: 15px;
+    float:left;
+}
+
+.add-user-form-container .add-user-form{
+    width:100%;
+    height: auto;
+    margin:0;
+}
+
+.add-user-form-container .add-user-form .row{
+    width:100%;
+    height:auto;
+    margin:10px 0;
+    float: left;
+}
+
+.add-user-form-container .add-user-form .row .col1{
+    width:200px;
+    height:auto;
+    float:left;
+    font-family: 'Heebo', sans-serif;  
+    font-size:18px;
+    font-weight:bold;
+}
+
+.add-user-form-container .add-user-form .row .col2{
+    width:60%;
+    height:auto;
+    float:left;
+}
+
+.add-user-form-container .add-user-form .row .col2 .text-input,
+.add-user-form-container .add-user-form .row .col2 .select-input{
+    width:100%;
+    height:auto;
+    padding:5px;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;  
+    font-size:18px;
+}
+
+.add-user-form-container .add-user-form .buttons-row{
+    width:100%;
+    height:auto;
+    margin:20px 0;
+    text-align: center;
+    float: left;
+}
+
+.add-user-form-container .add-user-form .buttons-row .submit-button{
+    width:150px;
+    height:auto;
+    margin:10px 20px;
+    padding:10px;
+    background-color: #737124;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 25px;
+}
+
+.add-user-form-container .add-user-form .buttons-row .submit-button:hover{
+    background-color: gray;
+
+}
+
+
+.display-users-container{
+    width:50%;
+    height:auto;
+    margin:50px 25%;
+    overflow: scroll;
+}
+
+.display-users-container .users-table{
+    width:600px;
+    height:auto;
+    margin:0;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.display-users-container .users-table th{
+    border:1px solid black;
+    padding:10px;
+    background-color: lightgray;
+}
+
+.display-users-container .users-table td{
+    border:1px solid black;
+    padding:10px;
+}
+
+.display-users-container .users-table .user-edit{
+    width:auto;
+    height: auto;
+    margin:0 10px;
+    padding:5px;
+    cursor:pointer;
+}
+
+.signup-form-container{
+    width:50%;
+    height:auto;
+    margin: 50px 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.signup-form-container .row{
+    width:100%;
+    height: auto;
+    margin:10px 0;
+}
+
+.signup-form-container .row .col1{
+    width:200px;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;  
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-form-container .row .col2{
+    width:60%;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;  
+}
+.signup-form-container .row .col2 .text-input{
+    width:100%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.signup-form-container .button-row {
+    width:100%;
+    height: auto;
+    margin:20px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width:1300px){
+    .add-user-form-container{
+        width:80%;
+        height:auto;
+        margin:50px 10%;
+
+    }
+    
+    .signup-form-container{
+        width:80%;
+        height:auto;
+        margin: 50px 10%;
+    }
+    
+    .signup-form-container .row .col2{
+        width:90%;
+        height:auto;
+        display: block;
+        margin:10px 0;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .display-users-container{
+        width:90%;
+        height:auto;
+        margin:50px 5%;
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    .add-user-form-container{
+        width:80%;
+        height:auto;
+        margin:50px 10%;
+
+    }  
+
+    .add-user-form-container .row{
+        float:none;
+    }
+
+    .add-user-form-container .add-user-form .row .col1{
+        width:80%;
+        height:auto;
+        float:none;
+        margin:10px;
+    }
+    .add-user-form-container .add-user-form .row .col2{
+        width:80%;
+        height:auto;
+        float:none;
+        margin:10px;
+    }
+
+    .add-user-form-container .add-user-form .buttons-row .submit-button{
+        width:60%;
+        height: auto;
+        display: block;
+        margin:20px 20%;
+
+    }
+
+
+
+}

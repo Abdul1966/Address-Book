@@ -1,0 +1,98 @@
+
+.edit-record-form-container{
+    width:60%;
+    height:auto;
+    margin:30px 20%;
+    padding:20px;
+    box-sizing: border-box;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.edit-record-form-container .row{
+    width:100%;
+    height:auto;
+    margin: 0;
+}
+
+.edit-record-form-container .row .col1{
+    width:200px;
+    height:auto;
+    margin:5px 10px;
+    padding:5px;
+    font-family:'Heebo', sans-serif;          ;
+    font-size: 18px;
+    font-weight: bold;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.edit-record-form-container .row .col2{
+    width:60%;
+    height:auto;
+    margin:5px 10px;
+    display:inline-block;
+}
+
+.edit-record-form-container .row .col2 .edit-input{
+    width:100%;
+    height: auto;
+    padding:5px 10px;
+    font-family:'Heebo', sans-serif; 
+    font-size: 16px;
+    border-radius: 10px;
+    border-color:gray;
+
+}
+
+.edit-record-form-container .row .col2 .edit-address{
+    width:100%;
+    height: 200px;
+    padding:10px;
+    font-family:'Heebo', sans-serif; 
+    font-size: 16px;
+    border-radius: 10px;
+    border-color:gray;
+}
+
+.edit-record-form-container .buttons-row{
+    width:100%;
+    height:auto;
+    margin:20px 0;
+    text-align: center;
+}
+
+
+.edit-record-form-container .buttons-row .submit-button{
+ 
+    margin:10px;
+
+}
+
+@media only screen and (max-width:800px){
+    .edit-record-form-container{
+        width:80%;
+        height:auto;
+        margin:30px 10%;
+  
+    }
+
+    .edit-record-form-container .row{
+        width:100%;
+        height: auto;
+        margin:20px 0;
+    }
+
+    .edit-record-form-container .row .col1{
+       width:80%;
+        height:auto;
+        margin:0 10px;
+    }
+
+    .edit-record-form-container .row .col2{
+        width:80%;
+        height:auto;
+        margin:0 10px;
+    }
+}
